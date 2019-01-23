@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vue.MainActivity">
+    <FrameLayout
+        android:layout_width="wrap_content" android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/backgroundjpg"
+            android:scaleType="centerCrop" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:paddingTop="13dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_gravity="right"
+            android:background="#00FFFFFF"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal"
+            android:textColor="#555555">
+
+            <TextView
+                android:id="@+id/txtVille"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAllCaps="true"
+                android:textColor="#CCCCCC"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerVille"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/bg_spinner"
+                android:spinnerMode="dialog"
+                android:textColor="#DDDDDD"
+                android:theme="@style/MatchSpinnerThemeVille" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="100dp"
+            android:paddingBottom="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/treen_logowhite" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="top|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonScan"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="Scanner produit"
+                android:textColor="#555555"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/btnAccueilTriVille"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="Comment trier dans ma ville?"
+                android:textColor="#555555"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

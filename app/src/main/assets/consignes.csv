@@ -1,0 +1,69 @@
+Villes;Lyon;Strasbourg;Rennes
+#PLASTIQUE
+bouteille plastique;1;1;1
+flacon alimentaire plastique;1;1;1
+flacon hygiène en plastique;1;1;1
+flacon de produit ménager en plastique;1;1;1
+cubi en plastique;1;1;1
+bouchon en plastique;1;1;1
+pot de yaourt;0;0;1
+pot alimentaire en plastique;0;0;1
+sac plastique;0;0;1
+boîte d'oeufs en plastique;0;0;1
+barquette alimentaire en plastique;0;0;1
+couvercle en plastique;0;0;1
+opercules en plastique;0;0;1
+surremballage individuel en plastique;0;0;1
+surremballage paquet en plastique;0;0;1
+#CARTON
+brique alimentaire en carton;1;1;1
+boite alimentaire carton;1;1;1
+cartonnettes individuelle en carton;1;1;1
+cartonnette paquet en carton;1;1;1
+surremballage en carton;1;1;1
+boite d'oeufs en carton;1;1;1
+barquette alimentaire en carton;1;1;1
+carton pizza;1;1;1
+bouchons en liège;0;0;3
+#VERRE
+bouteille de vin;2;2;2
+bouteille d'huile;2;2;2
+bouteille de jus de fruit;2;2;2
+bocal en verre;2;2;2
+pot confiture;2;2;2
+vase;0;3;3
+bouteille de parfum;0;3;3
+vaisselle;0;3;3
+porcelaine;0;3;3
+faïence;0;3;3
+verre de table;0;3;3
+vitres;0;3;3
+ampoule;3;3;3
+#METALLIQUE
+canettes;1;1;1
+conserves;1;1;1
+aérosols;1;1;1
+bouteille sirop;1;1;1
+boîtes métalliques;1;1;1
+opercules en métal;1;1;1
+bouchons et capsules en métal;1;1;1
+barquettes en métal;1;1;1
+piles;3;3;3
+#ALIMENTAIRE
+végétaux;4;4;4
+épluchures;4;4;4
+papier toilette;4;4;4
+sopalin;4;4;4
+filtre de café, dosettes;4;4;4
+restes de repas;4;4;4
+agrumes;0;0;0
+#PAPIER
+journaux;1;1;1
+livres;1;1;1
+prospectus;1;1;1
+enveloppes;1;1;1
+cahiers;1;1;1
+bloc notes;1;1;1
+feuilles imprimées;1;1;1
+*****
+

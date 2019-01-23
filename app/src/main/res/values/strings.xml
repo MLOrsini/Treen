@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TreeanApp</string>
+    <string name="turn_off_flashlight">Flash on</string>
+
+    <string name="turn_on_flashlight">Flash off</string>
+
+    <string name="title_activity_main">QR and Barcode Scanner</string>
+
+    <string name="message">Positionnez le code barre au centre de l\'ecran.</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_ajout_produit1">AjoutProduit1</string>
+</resources>
